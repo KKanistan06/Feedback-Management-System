@@ -1,0 +1,25 @@
+Array
+(
+    [CourseId] => EC5011
+    [Comments] => Very informative course.
+    [responses] => Array
+        (
+            [CQ01] => 5
+            [CQ02] => 5
+            [CQ03] => 5
+            [CQ04] => 4
+            [CQ05] => 4
+            [CQ06] => 5
+            [CQ07] => 5
+            [CQ08] => 5
+            [CQ09] => 4
+            [CQ10] => 4
+            [CQ11] => 5
+            [CQ12] => 5
+            [CQ13] => 4
+            [CQ14] => 5
+            [CQ15] => 5
+            [CQ16] => Very informative course.
+        )
+
+)

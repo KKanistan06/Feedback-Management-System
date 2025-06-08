@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.content {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 90px;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(201, 158, 253, 0.442) 0px 30px 90px;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.form-row > div {
+    flex: 1;
+    margin-right: 10px;
+}
+.form-row > div:last-child {
+    margin-right: 0;
+}
+.checkbox-label {
+    display: block;
+    margin-bottom: 5px;
+}
+#students, #lecturers {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+h2 {
+    color: #1F6E8C;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+h2 span {
+    color: black;
+}
+
+button {
+    background-color: #0E2954;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #1F6E8C;
+}
+
+.btn {
+    background-color: #063f9c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 24px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #0c087b;
+}
+
+#courseId {
+    padding: 8px;
+    border: 1px solid #ccc;
+    background: #e2e2ff;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.request-table input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    border-radius: 3px;
+    font-size: inherit;
+}
+
+.close {
+    color: #063f9c;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #0c087b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close-button {
+    color: #063f9c;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    margin-right: -15px;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #0c087b;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #1F6E8C;
+    padding-bottom: 8px;
+    padding-top: 15px;
+}
+
+input[type="password"],
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    background: #e2e2ff;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+label.checkbox-label {
+    display: flex;
+    align-items: center;
+    background: #e2e2ff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+#students {
+    max-height: 180px; 
+    overflow-y: scroll;
+    background: #e2e2ff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#batches, #courses {
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+input[type="submit"],
+button {
+    background-color: #063f9c;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0c087b;
+
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #e2e2ff;
+}
+
+.pagination {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.pagination a {
+    color: #333;
+    padding: 8px 13px;
+    text-decoration: none;
+    margin: 0 4px;
+    border: 1px solid #ddd;
+    border-radius: 47px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a.prev,
+.pagination a.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination a.prev i,
+.pagination a.next i {
+    margin: 0 4px;
+}
+
+
+.message {
+    padding: 20px;
+    border-radius: 5px;
+    margin: 50px auto;
+    max-width: 500px;
+    text-align: center;
+    justify-content: center;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.failure-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}

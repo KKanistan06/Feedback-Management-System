@@ -1,0 +1,43 @@
+Array
+(
+    [CourseId] => EC5011
+    [LecturerId] => COM11112
+    [Comments] => super
+    [responses] => Array
+        (
+            [Time Management] => Array
+                (
+                    [1] => 5
+                    [2] => 5
+                    [3] => 5
+                )
+
+            [Delivery Method] => Array
+                (
+                    [1] => 5
+                    [2] => 5
+                    [3] => 5
+                )
+
+            [Subject Command] => Array
+                (
+                    [1] => 5
+                    [2] => 5
+                    [3] => 5
+                    [4] => 5
+                )
+
+            [About Myself] => Array
+                (
+                    [1] => 5
+                    [2] => 5
+                )
+
+            [comments] => Array
+                (
+                    [1] => super
+                )
+
+        )
+
+)
